@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://puter.com/app/todo" target="_blank">Serverless Todo App</a>
+  <a href="https://puter.com/app/serverless-todo" target="_blank">Serverless Todo App</a>
 </h1>
 
 <p align="center">A todo application that syncs your tasks to the cloud using Puter.js - no backend required!
@@ -38,13 +38,7 @@ Alternatively, access the hosted version at [puter.com/app/subdomain-registrar](
 
 This Todo App leverages [**Puter.js**](https://developer.puter.com/) to provide cloud database without requiring any backend infrastructure. Traditional todo apps need a server to store data, but this app uses Puter's cloud infrastructure to handle all data persistence automatically.
 
-Specifically, the application uses [`puter.kv.get()`](https://docs.puter.com/kv/get/) and [`puter.kv.set()`](https://docs.puter.com/kv/set/) to read and write todo data to the cloud. This means:
-
-- ✅ **No server setup required** - Just open the HTML file in your browser
-- ✅ **Automatic cloud sync** - Your todos are saved to Puter's cloud storage
-- ✅ **Cross-device access** - Access your todos from any device when signed in
-- ✅ **Offline resilience** - The app gracefully handles network issues
-- ✅ **User-scoped data** - Each user only sees their own todos
+Specifically, the application uses [`puter.kv.get()`](https://docs.puter.com/kv/get/) and [`puter.kv.set()`](https://docs.puter.com/kv/set/) to read and write todo data to the cloud.
 
 The app automatically handles authentication, data synchronization, and conflict resolution through Puter's infrastructure.
 
