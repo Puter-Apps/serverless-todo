@@ -28,9 +28,6 @@ git clone https://github.com/puter-apps/serverless-todo.git
 
 and open the `index.html` file in any hosted environment (you can use [`http-server`](https://www.npmjs.com/package/http-server) to serve the app locally).
 
-Alternatively, access the hosted version at [puter.com/app/subdomain-registrar](https://puter.com/app/subdomain-registrar).
-
-<br>
 
 <br>
 
