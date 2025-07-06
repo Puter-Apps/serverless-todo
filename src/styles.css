@@ -35,6 +35,26 @@ header h1 {
     font-size: 0.9rem;
 }
 
+.subtitle a {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    padding: 3px 8px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.subtitle a:hover {
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: translateY(-1px);
+}
+
+.subtitle a:active {
+    transform: translateY(0);
+}
+
 main {
     background: white;
     border-radius: 10px;
